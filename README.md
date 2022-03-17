@@ -1,7 +1,6 @@
 # Getting Started
 This is a demo project illustrating a single REST endpoint.
 It is equipped with an in-memory database (H2) for ease-of-distribution.
-It will receive requests on the '/document' path with a
 
 # H2 Database
 The H2 Database has the following implications:
@@ -23,6 +22,7 @@ Alternatively, to run with Maven execute the following command from the project 
 
 `mvn spring-boot:run`
 
+# Using the Application
 With the app running, you can send a POST request to the application on
 
 `localhost:8080/document`
@@ -34,6 +34,7 @@ The body should be a JSON document containing an `id` field and a `message` fiel
 	"message":"Hello! "
 }
 ```
+
 This application complies with the following rules:
 1. The endpoint will return a JSON document with a single field "count" that contains the total number of words contained in all the messages received to that point. For example, if the first message contains 3 words it would respond with "count = 3". If the next message contains 5 words it would respond with "count = 8".
 2. The service will ignore messages with duplicate ids. (i.e. ids that have already been processed).
