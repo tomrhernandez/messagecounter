@@ -22,6 +22,10 @@ Alternatively, to run with Maven execute the following command from the project 
 
 `mvn spring-boot:run`
 
+Verify this application is running by visiting the root URL
+
+`localhost:8080`
+
 # Using this Application
 With the app running, you can send a POST request to this application on
 
