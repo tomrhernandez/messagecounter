@@ -31,7 +31,7 @@ The body should be a JSON document containing an `id` field and a `message` fiel
 ```
 {
 	"id":"1228",
-	"message":"Hello! "
+	"message":"Hello world"
 }
 ```
 
