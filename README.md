@@ -9,7 +9,7 @@ The H2 Database has the following implications:
 
 Despite the implications I chose an H2 Database for the following reasons:
 1. Ease of distribution.
-2. Code demonstrates the same strategies if a database server is used.
+2. Code demonstrates the same strategies as if a database server is used.
 
 # Running this Application
 An executable .JAR file has been prepared with the current compilation of the app. It was compiled using Java 11.
