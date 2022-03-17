@@ -16,7 +16,7 @@ An executable .JAR file has been prepared with the current compilation of the ap
 
 To run this execute the following command from the project directory
 
-`'java -jar target/messagecounter-0.0.1-SNAPSHOT.jar'`
+`java -jar messagecounter-0.0.1-SNAPSHOT.jar`
 
 Alternatively, to run with Maven execute the following command from the project directory
 
